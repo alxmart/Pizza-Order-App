@@ -64,6 +64,7 @@
                 android:layout_width="40dp"
                 android:layout_height="59dp"
                 android:layout_weight="1"
+                android:onClick="onPlaceOrderButtonClicked"
                 android:text="Small ($5)" />
 
             <RadioButton
@@ -71,6 +72,7 @@
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onPlaceOrderButtonClicked"
                 android:text="Medium ($7)" />
 
             <RadioButton
@@ -78,6 +80,7 @@
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onPlaceOrderButtonClicked"
                 android:text="Large ($9)" />
 
 
@@ -104,6 +107,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="140dp"
+        android:onClick="onPlaceOrderButtonClicked"
         android:text="Onions ($1)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -113,6 +117,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="140dp"
+        android:onClick="onPlaceOrderButtonClicked"
         android:text="Olives ($2)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/TomatoesCheckBox"
@@ -125,6 +130,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="140dp"
+        android:onClick="onPlaceOrderButtonClicked"
         android:text="Tomatoes ($3)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
